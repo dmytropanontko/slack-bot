@@ -1,0 +1,32 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.1 < 9"
+  },
+  "dependencies": {
+    "@botpress/audience": "10.20.1",
+    "@botpress/builtins": "10.20.1",
+    "@botpress/channel-slack": "^10.20.1",
+    "@botpress/channel-web": "10.20.1",
+    "@botpress/hitl": "10.20.1",
+    "@botpress/nlu": "10.20.1",
+    "@botpress/scheduler": "^10.22.2",
+    "@botpress/skill-choice": "10.20.1",
+    "axios": "^0.18.0",
+    "botpress": "10.20.1",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keenethics",
+  "license": "AGPL-3.0"
+}
